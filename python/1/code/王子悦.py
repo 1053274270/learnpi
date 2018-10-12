@@ -1,5 +1,4 @@
 import pygame,sys
-from PIL import Image
 import random
 import numpy as np
 from pygame.locals import *
@@ -7,8 +6,7 @@ pygame.init()
 pygame.display.set_caption("王子悦小胖子")
 screen =pygame.display.set_mode([1000,1000])
 myfont=pygame.font.SysFont(None,30)     
-img=Image.open(r'wzy\h.jpg')
-size=img.size
+size=[2061,2060]
 i,j=2,2
 h=int(size[1]/3)
 w=int(size[0]/3)
