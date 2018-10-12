@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\1",
-    "\\1\\1"
+    "\\python",
+    "\\python\\1",
+    "\\python\\1\\code",
+    "\\python\\1\\txt",
+    "\\python\\1\\wzy"
   ],
-  "SelectedNode": "\\1",
+  "SelectedNode": "\\python\\1\\code\\9宫格.py",
   "PreviewInSolutionExplorer": false
 }

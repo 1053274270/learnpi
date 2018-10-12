@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>add62e44-2d94-42ef-adef-b15b36e93338</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>code\9宫格.py</StartupFile>
+    <StartupFile>code\王子悦.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,15 +30,24 @@
     <Compile Include="code\小说分析.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="code\王子月.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="code\王子悦.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="code\wzy\" />
     <Folder Include="img\" />
     <Folder Include="code\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="code\wzy\1.png" />
+    <Content Include="code\wzy\2.png" />
+    <Content Include="code\wzy\3.png" />
+    <Content Include="code\wzy\4.png" />
+    <Content Include="code\wzy\5.png" />
+    <Content Include="code\wzy\6.png" />
+    <Content Include="code\wzy\7.png" />
+    <Content Include="code\wzy\8.png" />
+    <Content Include="code\wzy\9.png" />
+    <Content Include="code\wzy\h.jpg" />
     <Content Include="img\1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

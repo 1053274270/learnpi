@@ -6,7 +6,7 @@ pygame.init()
 pygame.display.set_caption("王子悦小胖子")
 screen =pygame.display.set_mode([1000,1000])
 myfont=pygame.font.SysFont(None,30)     
-size=[2061,2060]
+size=[1000,1000]
 i,j=2,2
 h=int(size[1]/3)
 w=int(size[0]/3)
