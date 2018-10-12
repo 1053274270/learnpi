@@ -4,37 +4,25 @@ import random
 import numpy as np
 from pygame.locals import *
 pygame.init()
-pygame.display.set_caption("九宫格")
+pygame.display.set_caption("王子悦小胖子")
 screen =pygame.display.set_mode([1000,1000])
 myfont=pygame.font.SysFont(None,30)     
-img=Image.open(r'img\0.png')
+img=Image.open(r'wzy\h.jpg')
 size=img.size
 i,j=2,2
 h=int(size[1]/3)
 w=int(size[0]/3)
 tuxiang=[1,2,3],[4,5,6],[7,8,9]
 tuxiang=np.asarray(tuxiang)
-img1=pygame.image.load(r'九宫格\10.png')
-img2=pygame.image.load(r'九宫格\11.png')
-img3=pygame.image.load(r'九宫格\12.png')
-img4=pygame.image.load(r'九宫格\13.png')
-img5=pygame.image.load(r'九宫格\14.png')
-img6=pygame.image.load(r'九宫格\15.png')
-img7=pygame.image.load(r'九宫格\16.png')
-img8=pygame.image.load(r'九宫格\17.png')
-img9=pygame.image.load(r'九宫格\18.png')
-def fenge():
-    img=Image.open(r'img\0.png')
-    size=img.size
-    h=size[1]/3
-    w=size[0]/3
-    n=3
-    k=1
-    for i in range(n):
-        for j in range(n):       
-            a=img.crop((i*w,j*h,(i+1)*w,(j+1)*h))       
-            a.save(str(k)+'.png')
-            k+=1     
+img1=pygame.image.load(r'wzy\1.png')
+img2=pygame.image.load(r'wzy\2.png')
+img3=pygame.image.load(r'wzy\3.png')
+img4=pygame.image.load(r'wzy\4.png')
+img5=pygame.image.load(r'wzy\5.png')
+img6=pygame.image.load(r'wzy\6.png')
+img7=pygame.image.load(r'wzy\7.png')
+img8=pygame.image.load(r'wzy\8.png')
+img9=pygame.image.load(r'wzy\9.png')     
 while True:         
     screen.fill([0,0,0])  
     for event in pygame.event.get():        
