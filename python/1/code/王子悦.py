@@ -20,7 +20,7 @@ img5=pygame.image.load(r'wzy\5.png')
 img6=pygame.image.load(r'wzy\6.png')
 img7=pygame.image.load(r'wzy\7.png')
 img8=pygame.image.load(r'wzy\8.png')
-img9=pygame.image.load(r'wzy\9.png')     
+img9=pygame.image.load(r'wzy\9.jpg')     
 while True:         
     screen.fill([0,0,0])  
     for event in pygame.event.get():        
