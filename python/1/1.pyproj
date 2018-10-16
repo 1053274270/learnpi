@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>add62e44-2d94-42ef-adef-b15b36e93338</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>code\王子悦.py</StartupFile>
+    <StartupFile>code\module1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -33,21 +33,17 @@
     <Compile Include="code\王子悦.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="code\wzy\" />
+    <Folder Include="code\tanke\" />
     <Folder Include="img\" />
     <Folder Include="code\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="code\wzy\1.png" />
-    <Content Include="code\wzy\2.png" />
-    <Content Include="code\wzy\3.png" />
-    <Content Include="code\wzy\4.png" />
-    <Content Include="code\wzy\5.png" />
-    <Content Include="code\wzy\6.png" />
-    <Content Include="code\wzy\7.png" />
-    <Content Include="code\wzy\8.png" />
-    <Content Include="code\wzy\9.png" />
-    <Content Include="code\wzy\h.jpg" />
+    <Content Include="code\tanke\pi.png" />
+    <Content Include="code\tanke\qiang.png" />
+    <Content Include="code\tanke\tanke.png" />
+    <Content Include="code\tanke\zhuan.png" />
+    <Content Include="code\tanke\zidan.png" />
+    <Content Include="code\tanke\zidan1.png" />
     <Content Include="img\1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

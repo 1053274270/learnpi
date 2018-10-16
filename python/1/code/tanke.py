@@ -4,7 +4,7 @@ from pygame.locals import *
 class Tanke(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
-        self.img=pygame.image.load('tanke.png')    
+        self.img=pygame.image.load('tanke\\tanke.png')    
         self.rect=self.img.get_rect()
         self.rect.topleft=500,500
         self.pa=True
@@ -12,13 +12,13 @@ class Tanke(pygame.sprite.Sprite):
 class Zhuan(pygame.sprite.Sprite):
     def __init__(self,p):
         pygame.sprite.Sprite.__init__(self)
-        self.img=pygame.image.load('zhuan.png')    
+        self.img=pygame.image.load('tanke\\zhuan.png')    
         self.rect=self.img.get_rect()
         self.rect.topleft=p   
 class Q_buttle(pygame.sprite.Sprite):
     def __init__(self,pos):
         pygame.sprite.Sprite.__init__(self)
-        self.img=pygame.image.load('zidan1.png')
+        self.img=pygame.image.load('tanke\\zidan1.png')
         self.rect=self.img.get_rect()
         self.rect.topleft = pos
         self.speed=10               
