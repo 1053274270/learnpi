@@ -35,7 +35,8 @@ class Q_buttle(pygame.sprite.Sprite):
 pygame.init()
 keys=[False,False,False,False,False]
 pygame.display.set_caption("Hide Game")
-screen =pygame.display.set_mode([1000,1000])
+size=[1600,900]
+screen =pygame.display.set_mode(size)
 myfont=pygame.font.SysFont(None,30)     
 zhuangroup=pygame.sprite.Group()
 Qjigroup=pygame.sprite.Group()
@@ -83,11 +84,11 @@ while True:
             sys.exit()
     if keys[0]  and tanke.rect.left>0:        
         tanke.rect.left-=tanke.speed
-    if keys[1]  and tanke.rect.right<1000:
+    if keys[1]  and tanke.rect.right<size[0]:
         tanke.rect.left+=tanke.speed
     if keys[2]  and tanke.rect.top>0:
         tanke.rect.top-=tanke.speed
-    if keys[3]  and tanke.rect.bottom<1000:
+    if keys[3]  and tanke.rect.bottom<size[1]:
         tanke.rect.top+=tanke.speed
     screen.blit(tanke.img,tanke.rect.topleft)    
     for zidan in zhuangroup:
