@@ -7,20 +7,20 @@ pygame.display.set_caption("王子悦小胖子")
 screen =pygame.display.set_mode([1000,1000])
 myfont=pygame.font.SysFont(None,30)     
 size=[1000,1000]
-i,j=2,2 
+i,j=2,2
 h=int(size[1]/3)
 w=int(size[0]/3)
 tuxiang=[1,2,3],[4,5,6],[7,8,9]
 tuxiang=np.asarray(tuxiang)
-img1=pygame.image.load(r'wzy\1.png')
-img2=pygame.image.load(r'wzy\2.png')
-img3=pygame.image.load(r'wzy\3.png')
-img4=pygame.image.load(r'wzy\4.png')
-img5=pygame.image.load(r'wzy\5.png')
-img6=pygame.image.load(r'wzy\6.png')
-img7=pygame.image.load(r'wzy\7.png')
-img8=pygame.image.load(r'wzy\8.png')
-img9=pygame.image.load(r'wzy\9.jpg')     
+img1=pygame.image.load(r'1.png')
+img2=pygame.image.load(r'2.png')
+img3=pygame.image.load(r'3.png')
+img4=pygame.image.load(r'4.png')
+img5=pygame.image.load(r'5.png')
+img6=pygame.image.load(r'6.png')
+img7=pygame.image.load(r'7.png')
+img8=pygame.image.load(r'8.png')
+img9=pygame.image.load(r'9.jpg')     
 while True:         
     screen.fill([0,0,0])  
     for event in pygame.event.get():        
