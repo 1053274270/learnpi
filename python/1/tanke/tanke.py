@@ -8,7 +8,8 @@ class Tanke(pygame.sprite.Sprite):
         self.rect=self.img.get_rect()
         self.rect.topleft=500,500
         self.pa=True
-        self.speed=1
+        self.speed=5
+        self.angle=0
 class Zhuan(pygame.sprite.Sprite):
     def __init__(self,p):
         pygame.sprite.Sprite.__init__(self)
@@ -41,13 +42,18 @@ myfont=pygame.font.SysFont(None,30)
 zhuangroup=pygame.sprite.Group()
 Qjigroup=pygame.sprite.Group()
 tanke=Tanke()
+clock=pygame.time.Clock()
 for i in range(10):
     x=random.randint(0,900)
     y=random.randint(0,900)
     zhuangroup.add(Zhuan([x,y]))    
 while True:     
-    screen.fill([0,0,0])  
+    screen.fill([0,0,0])      
+    clock.tick(60)
     for event in pygame.event.get():        
+        if pygame.mouse.get_pressed()==(0,0,1):
+            print(pygame.mouse.get_pos())
+            print(tanke.rect.center)
         if event.type == KEYDOWN:
             if event.key==K_LEFT:
                 keys[0]=True
@@ -94,4 +100,5 @@ while True:
     for zidan in zhuangroup:
         screen.blit(zidan.img,zidan.rect.topleft)   
     pygame.sprite.spritecollide(tanke,zhuangroup,True)
+    #print(pygame.mouse.get_pressed())
     pygame.display.update()
