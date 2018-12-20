@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\c++",
     "\\python",
-    "\\python\\1",
-    "\\python\\1\\tanke",
-    "\\python\\1\\wzy"
+    "\\python\\1"
   ],
-  "SelectedNode": "\\python\\1\\tanke\\tanke.py",
+  "SelectedNode": "\\python\\1",
   "PreviewInSolutionExplorer": false
 }
